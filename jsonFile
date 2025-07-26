@@ -1,4 +1,6 @@
 {
-  "apiUrl": "https://api.production.com",
-  "debug": false
+  "env": "local",
+  "apiUrl": "https://api.staging.local",
+  "debug": true
+  "fallbackApi": "https://api.production.com"
 }
